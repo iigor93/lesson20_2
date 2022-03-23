@@ -4,8 +4,9 @@
 # Пример
 
 class Config(object):
-    DEBUG = True
+    DEBUG = False
     SECRET_HERE = '249y823r9v8238r9u'
+    JSON_AS_ASCII = False
     SQLALCHEMY_DATABASE_URI = 'sqlite:///:memory:'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
